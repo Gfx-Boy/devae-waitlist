@@ -237,10 +237,7 @@ export default function Waitlist() {
 
           {/* Right side - Get Started + Mobile Menu */}
           <div className="flex items-center gap-3 ml-auto">
-            <Link href="/" className="group relative overflow-hidden rounded-full bg-white px-4 py-2.5 text-xs font-medium text-black transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-white/20 sm:px-6 sm:py-3 sm:text-sm">
-              <span className="relative z-10">Back to Home</span>
-              <div className="absolute inset-0 -translate-x-full bg-gradient-to-r from-white via-neutral-200 to-white transition-transform duration-700 group-hover:translate-x-0" />
-            </Link>
+            
 
             {/* Mobile menu button */}
             <button

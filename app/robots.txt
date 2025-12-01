@@ -1,0 +1,19 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Disallow admin areas (when they exist)
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://devae.us/sitemap.xml
+
+# Crawl-delay for aggressive bots
+User-agent: Bingbot
+Crawl-delay: 1
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
